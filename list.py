@@ -1,0 +1,14 @@
+l=["apple","banana","orange"]
+l_1=["guava","grapes","berry"]
+print(l)
+print(l[0])
+a=type(l[1])
+print(a)
+length=len(l)
+print(length)
+l.insert(1,"mango")
+l.append("pineapple")
+l.extend(l_1)
+l.pop(5)
+l.count(2)
+print(l)
